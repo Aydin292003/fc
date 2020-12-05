@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 30%;
+    min-width:400px;
+    min-height: 590px;
+     font-family: 'Arial';
+}
+.buttons,.result{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+    
+} 
+.buttons {
+    border-right: 0px;
+}
+.result{
+    height: 90px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.5em;
+   
+    background: #000;
+    color: white;
+    padding: 0 10px;
+}
+
+.C-button {
+    height: 100px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    background:#d8d9db;
+    color: #000;
+    padding: 25px 10px;
+    flex: 0 1 50% ;
+}
+.button-number{
+    height: 100px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    background:#d8d9db ;
+    color: #000;
+    padding:25px 10px;
+    flex: 0 1 25% ;
+} 
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+ 
+.small-button{
+    height: 100px;
+    border: 1px solid black;
+    border-right: 0;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    background: #df974c;
+    color: #000;
+    padding: 25px 10px;
+    flex: 0 1 25% ;
+}
+.small-button a{
+    color: #fff;
+} 
+.arrow {
+    height: 100px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    background:#d8d9db ;
+    color: #000;
+    padding: 22px 10px;
+    flex: 0 1 25% ;
+}
+.zero-button{
+    height: 100px;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    background:#d8d9db ;
+    color: #000;
+    padding: 25px 10px;
+    flex: 0 1 75% ;
+}
+.button-number:hover{
+    background: #ebebeb;
+}
+.button-number a:hover{
+    color: #bbbcde;
+}
+.zero-button:hover{
+    background: #ebebeb;
+}
+.zero-button a:hover{
+    color: #bbbcde;
+}
+.C-button:hover{
+    background: #ebebeb;
+} 
+.C-button a:hover{
+    color: #bbbcde;
+}
+.arrow:hover{
+    background: #ebebeb
+} 
+.arrow a:hover{
+    color: #bbbcde;
+}
+.small-button:hover{
+   background: #dfb07e;
+} 
+.small-button a:hover{
+    color: #dd8d37;
+}
